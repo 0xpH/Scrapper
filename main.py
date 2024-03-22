@@ -27,7 +27,7 @@ def main():
     # Add the prefix before each IP address and write to a new file
     with open(output_file, 'w') as file:
         for ip in raw_data:
-            file.write(f"{prefix}{ip}\n")
+            file.write(f"{prefix}://{ip}\n")
 
     print("Prefix added successfully.")
 
