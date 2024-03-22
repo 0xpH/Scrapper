@@ -1,7 +1,6 @@
 
 # 0xPH Scrapper
 
-Membuat ip:port proxy ke protocol://ip:port 
 Convert ip:port proxies to protocol://ip:port.
 
 ## How to use:
