@@ -2,8 +2,9 @@
 # 0xPH Scrapper
 
 Membuat ip:port proxy ke protocol://ip:port 
-
-
+```git
+git clone https://github.com/0xpH/Scrapper.git
+```
 
 ## Acknowledgements
 
