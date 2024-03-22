@@ -17,6 +17,14 @@ You need to choose which protocol you want.
 
 ![image](https://github.com/0xpH/Scrapper/assets/119293469/9aab2dc1-1a6a-48f9-98c8-33c289a15acb)
 
+
+or
+
+ ```python
+py main_auto.py
+```
+To Save Shocks4, Shocks5, HTTP to 1 txt
+
 Another Features:
 1. merge.py to all txt file and store it to /proxy
 ```
