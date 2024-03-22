@@ -23,7 +23,7 @@ or
  ```python
 py main_auto.py
 ```
-To Save Shocks4, Shocks5, HTTP to 1 txt
+To get Shocks4, Shocks5, HTTP. to /proxy with the name proxy_timestamp.txt
 
 Another Features:
 1. merge.py to all txt file and store it to /proxy
