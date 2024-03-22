@@ -11,14 +11,14 @@ git clone https://github.com/0xpH/Scrapper.git
 
 2. Run:
 ```python
-py main.py https://yakumo.rei.my.id/SOCKS4 socks4:// socks4.txt
+py main.py https://yakumo.rei.my.id/SOCKS4 socks4 socks4.txt
 ```
 
 ```python
-py main.py https://yakumo.rei.my.id/SOCKS5 socks5:// socks5.txt
+py main.py https://yakumo.rei.my.id/SOCKS5 socks5 socks5.txt
 ```
 ```python
-py main.py https://yakumo.rei.my.id/HTTP http:// http.txt
+py main.py https://yakumo.rei.my.id/HTTP http http.txt
 ```
 
 Another Features:
