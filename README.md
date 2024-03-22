@@ -6,7 +6,7 @@ Membuat ip:port proxy ke protocol://ip:port
 git clone https://github.com/0xpH/Scrapper.git
 ```
 merge.py to merge http.txt, shocks4.txt, & shocks5.txt and store it to /proxy
-
+fresh.py to delete all txt file in the main directory
 ## Acknowledgements
 
  - [Yakumo](https://github.com/elliottophellia/yakumo)
