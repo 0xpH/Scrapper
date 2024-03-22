@@ -22,7 +22,7 @@ or
  ```python
 py main_auto.py
 ```
-To get Shocks4, Shocks5, HTTP. to /proxy with the name proxy_timestamp.txt
+This Python script fetches proxy data for HTTP, SOCKS4, and SOCKS5 protocols from @ and saves it to text files in /proxy. It pauses every 10 minutes to Get LIST PROXY UPDATED.
 
 Another Features:
 1. merge.py to all txt file and store it to /proxy
