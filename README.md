@@ -1,7 +1,6 @@
 
 # 0xpH Scrapper
-
-Convert ip:port proxies to protocol://ip:port.
+FREE CHECKED PROXY LIST UPDATED EVERY 10 MINUTES - HTTP(S), SOCKS4, SOCKS5
 
 ## How to use:
 1. Clone this repo:
