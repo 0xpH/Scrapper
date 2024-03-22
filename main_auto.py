@@ -1,8 +1,13 @@
 import os
 import requests
 from datetime import datetime
+import time
+
+# Variabel global untuk menghitung jumlah tugas yang sudah dilakukan
+total_tasks = 0
 
 def main():
+    global total_tasks  # Mendeklarasikan variabel global total_tasks
     protocols = ['HTTP', 'SOCKS4', 'SOCKS5']
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")  # Get current timestamp
     output_directory = "./proxy/"
@@ -33,6 +38,18 @@ def main():
                 file.write(f"{prefix}://{ip}\n")
 
             print("Data added successfully.\n")
+
+            # Menginkrementasi jumlah total tugas yang sudah dilakukan setiap kali sebuah tugas selesai
+            total_tasks += 1
+
+            # Jika sudah mencapai 3 tugas, tunggu 10 menit sebelum melanjutkan
+            if total_tasks % 3 == 0:
+                print("Total tasks completed: ", total_tasks)
+                print("Waiting for 10 minutes before continuing...")
+                time.sleep(600)  # 600 detik = 10 menit
+
+    # Cetak jumlah total tugas yang sudah dilakukan ketika semua tugas selesai
+    print(f"Total tasks completed: {total_tasks}")
 
 if __name__ == "__main__":
     main()
