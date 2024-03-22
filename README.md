@@ -1,5 +1,5 @@
 
-# 0xPH Scrapper
+# 0xpH Scrapper
 
 Convert ip:port proxies to protocol://ip:port.
 
