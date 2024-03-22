@@ -1,5 +1,5 @@
 
-# 0xPH Scrapper
+# 0xpH Scrapper
 
 Membuat ip:port proxy ke protocol://ip:port 
 ```git
@@ -29,4 +29,18 @@ python main.py https://yakumo.rei.my.id/SOCKS5 socks5:// socks5.txt
 ```
 ```python
 python main.py https://yakumo.rei.my.id/HTTP http:// http.txt
+```
+```python
+python main.py https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt http:// http2.txt
+```
+
+```python
+python main.py https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt https:// https.txt
+```
+
+```python
+python main.py https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt socks5:// socks5.txt
+```
+```python
+python main.py https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt socks4:// socks42.txt
 ```
