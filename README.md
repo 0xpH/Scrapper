@@ -31,6 +31,10 @@ py merge.py
 ```
 py fresh.py
 ```
+3. split.py to split all proxies list into 2k each files.
+```
+cd proxy && py split.py
+```
 
 ## Sources:
  - [Yakumo](https://github.com/elliottophellia/yakumo)
