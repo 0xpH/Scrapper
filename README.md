@@ -11,15 +11,10 @@ git clone https://github.com/0xpH/Scrapper.git
 
 2. Run:
 ```python
-py main.py https://yakumo.rei.my.id/SOCKS4 socks4 socks4.txt
+py main.py
 ```
-
-```python
-py main.py https://yakumo.rei.my.id/SOCKS5 socks5 socks5.txt
-```
-```python
-py main.py https://yakumo.rei.my.id/HTTP http http.txt
-```
+You need to choose which protocol you want.
+![image](https://github.com/0xpH/Scrapper/assets/119293469/9aab2dc1-1a6a-48f9-98c8-33c289a15acb)
 
 Another Features:
 1. merge.py to all txt file and store it to /proxy
@@ -39,5 +34,3 @@ cd proxy && py split.py
 ## Sources:
  - [Yakumo](https://github.com/elliottophellia/yakumo)
  - [Proxy](https://github.com/search?q=proxy+scraper&type=repositories&s=updated&o=desc)
- 
-

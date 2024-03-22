@@ -1,14 +1,33 @@
 import requests
-import sys
 
 def main():
-    if len(sys.argv) != 4:
-        print("Usage: python main.py website_url prefix output_file")
+    print("Choose protocol:")
+    print("1. HTTP")
+    print("2. SOCKS4")
+    print("3. SOCKS5")
+    choice = input("Enter your choice (1/2/3): ")
+
+    # Validate user choice
+    if choice not in ['1', '2', '3']:
+        print("Invalid choice. Exiting.")
         return
 
-    website_url = sys.argv[1]
-    prefix = sys.argv[2]
-    output_file = sys.argv[3]
+    website_url = ""
+    prefix = ""
+    output_file = ""
+
+    if choice == '1':
+        website_url = "https://yakumo.rei.my.id/HTTP"
+        prefix = "http"
+        output_file = "http.txt"
+    elif choice == '2':
+        website_url = "https://yakumo.rei.my.id/SOCKS4"
+        prefix = "socks4"
+        output_file = "socks4.txt"
+    elif choice == '3':
+        website_url = "https://yakumo.rei.my.id/SOCKS5"
+        prefix = "socks5"
+        output_file = "socks5.txt"
 
     print(f"Website URL: {website_url}")
     print(f"Prefix: {prefix}")
