@@ -21,12 +21,12 @@ fresh.py to delete all txt file in the main directory
 
 
 ```python
-python test.py https://yakumo.rei.my.id/SOCKS4 socks4:// socks4.txt
+python main.py https://yakumo.rei.my.id/SOCKS4 socks4:// socks4.txt
 ```
 
 ```python
-python test.py https://yakumo.rei.my.id/SOCKS5 socks5:// socks5.txt
+python main.py https://yakumo.rei.my.id/SOCKS5 socks5:// socks5.txt
 ```
 ```python
-python test.py https://yakumo.rei.my.id/HTTP http:// http.txt
+python main.py https://yakumo.rei.my.id/HTTP http:// http.txt
 ```
